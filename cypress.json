@@ -1,0 +1,7 @@
+{
+    "baseUrl": "",
+    "waitForAnimations": true,
+    "defaultCommandTimeout": 30000,
+    "responseTimeout": 65000,
+    "pageLoadTimeout": 65000
+}
