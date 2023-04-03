@@ -12,17 +12,3 @@
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
-
-// Import commands.js using ES2015 syntax:
-import './commands'
-
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
-
-before(() => {
-    Cypress.env('applicationId', '');
-    Cypress.env('userId', '');
-    Cypress.env('token', '');
-    Cypress.env('userName', '');
-    Cypress.env('recordId', '');
-  });
