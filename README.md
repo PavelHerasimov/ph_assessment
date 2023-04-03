@@ -4,6 +4,5 @@
 
 ## Cypress
 
-Specify the `cypress.env.json`, `cypress.json` files credentials and baseUrl
-
-npm run cypress:open # opens app in the browser, wrapped by Cypress runner
+* To run the tests: npm run cypress:open 
+# opens app in the browser, wrapped by Cypress runner
