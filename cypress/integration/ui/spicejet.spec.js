@@ -35,7 +35,7 @@ describe('spicejet', () => {
         cy.get('[data-testid="svg-img"]').eq(16).click()
         cy.get('.css-76zvg2.r-homxoj.r-ubezar').contains('USD').click()
         cy.get('[data-testid="home-page-flight-cta"]').click()
-        cy.url()
+        cy.url().should('include', 'from=AGR&to=JAI&tripType=2&departure=2023-05-01&adult=2&child=3')
     })
 
 })
